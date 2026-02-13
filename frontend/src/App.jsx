@@ -5,7 +5,6 @@ import MenuPage from './pages/MenuPage';
 import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
 import OrderTrackingPage from './pages/OrderTrackingPage';
-import Select from './Components/Select'
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 export const API = `${BACKEND_URL}/api`;
